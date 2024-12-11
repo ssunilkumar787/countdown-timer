@@ -1,0 +1,43 @@
+#root {
+  max-width: 1280px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+.input-box {
+  display: flex;
+  justify-content: center;
+  text-align: center;
+  align-items: center;
+  gap: 15px;
+}
+.input-box > input {
+  width: 30px;
+  height: 30px;
+  border: none;
+  outline: none;
+  border-radius: 8px;
+  padding: 10px;
+  text-align: center;
+}
+.input-box > button {
+  background-color: black;
+  color: white;
+  border-radius: 8px;
+  padding: 10px 30px;
+}
+
+.timmer-contdown {
+  display: flex;
+  justify-content: center;
+  gap: 10px;
+}
+
+.span {
+  font-size: 80px;
+}
+.timmer-contdown > button {
+  background-color: black;
+  color: white;
+  padding: 0px 20px;
+}
